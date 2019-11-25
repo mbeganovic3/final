@@ -1,0 +1,58 @@
+
+
+.display {
+  margin-top: 0px;
+  /* background-color: #e6f9ff; */
+  height: 100vh;
+  padding-top: 20px;
+}
+.post {
+  width: 70%;
+  margin: auto;
+}
+
+.likes, .replies {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#heart > * {
+  pointer-events: none;
+}
+
+#reply > * {
+  pointer-events: none;
+}
+
+#heart, #reply {
+  border: none;
+}
+
+#delete, #submit, #post{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.red {
+  color: red;
+}
+
+#searchBar {
+  width: 50%;
+}
+
+#dropdownMenu {
+  margin-right: 5px;
+}
+
+/* #dropdownMenu:hover {
+  background-color: purple;
+} */
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 150%;
+}
+
+
